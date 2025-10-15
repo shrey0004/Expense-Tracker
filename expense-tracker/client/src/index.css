@@ -1,0 +1,19 @@
+/* client/src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌟 ADD THIS BLOCK: Forces the entire page to use 100% height and eliminates default margins */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🌟 OPTIONAL: Ensures the body background color matches the app's chosen color, 
+   preventing any white flicker or border around the edges. 
+   Adjust 'bg-cyan-50' to whatever you are using in Dashboard.jsx. */
+body {
+  background-color: #f0faff; /* This is the specific hex code for bg-cyan-50 */
+}
